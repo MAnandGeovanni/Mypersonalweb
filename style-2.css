@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background-color: #4B527E;
+    
+
+}
+
+.logo {
+    font-family: 'Inter', sans-serif;
+    padding-left: 20px
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+    padding-right: 20px;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+ul li a:hover {
+    color: bisque;
+}
+.icon-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {opacity: 0;}
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+
+
+
+  section {
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+
+
+    /* Portofolio */
+
+    * {box-sizing: border-box}
+
+    .garis {
+      width: 70%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      color: white ;
+      margin-bottom: 10px;
+      font-size: 1.2em;
+    }
+    
+    .skills {
+      text-align: right;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      color: white;
+    }
+    
+    .html {width: 80%; background-color: orange;}
+    .css {width: 60%; background-color: blue;}
+    .js {width: 45%; background-color: rgb(211, 59, 4);}
+    .php {width: 50%; background-color: rgb(66, 198, 242);}
